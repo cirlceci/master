@@ -7,11 +7,12 @@ machine:
 test:
   override:
     - date
+     - cd xxxxx
 deployment:
   staging:
     branch: [master, develop]
     commands:
       - date
-      - cd xxxxx
+     
       - date
 
